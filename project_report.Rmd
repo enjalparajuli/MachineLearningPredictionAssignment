@@ -10,7 +10,7 @@ output: html_document
 * Read both training and testing instances. 
 * The function LOAD is to load the packages that I will use later.
 ```{r}
-setwd("C:/Users/Enjal/Downloads/Compressed/Practical-Machine-Learning-master/proyecto")
+setwd("C:/Users/Enjal/Downloads/Compressed/Practical-Machine-Learning-master/project_report")
 
 load <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
